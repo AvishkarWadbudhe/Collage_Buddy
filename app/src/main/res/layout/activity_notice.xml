@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5dp"
+    android:background="@color/background_color"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/imageBackButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_back"
+        app:tint="@color/colorAccent"/>
+
+    <!-- Notice Title -->
+    <TextView
+        android:id="@+id/noticeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Notice"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- RecyclerView for Notices -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/noticeRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/noticeTitle"
+        android:layout_marginTop="16dp"
+        android:visibility="visible" />
+
+    <!-- TextView for No Notices Available -->
+    <TextView
+        android:id="@+id/noNoticeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No notices available"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+</RelativeLayout>
