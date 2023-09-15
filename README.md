@@ -2,7 +2,7 @@
 
 CollageBuddy is an innovative college companion app designed to streamline student life by providing essential information and resources in one place. The app connects students with important updates, notices, timetables, exam schedules, results, eBooks, syllabus, notes, faculty details, and more. The information is seamlessly synchronized through Firebase Realtime Database and Firestore Storage, ensuring students have easy access to all the necessary resources.
 
-Collage buddy Admin app  ```https://github.com/AvishkarWadbudhe/College-Buddy-Admin-App.git`
+Collage buddy Admin app  ``https://github.com/AvishkarWadbudhe/College-Buddy-Admin-App.git``
 
 ## Key Features
 
