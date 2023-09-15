@@ -1,4 +1,4 @@
-package com.example.collagebuddy.Adapters;
+package com.example.collegebuddy.Adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,12 +10,12 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.collagebuddy.Models.NoticeDataModel;
-import com.example.collagebuddy.R;
+import com.example.collegebuddy.Models.NoticeDataModel;
+import com.example.collegebuddy.R;
 
 import java.util.List;
 
-public class NoticeAdapter extends RecyclerView.Adapter<com.example.collagebuddy.Adapters.NoticeAdapter.NoticeViewHolder>{
+public class NoticeAdapter extends RecyclerView.Adapter<com.example.collegebuddy.Adapters.NoticeAdapter.NoticeViewHolder>{
 
         private final List<NoticeDataModel> noticeList;
 

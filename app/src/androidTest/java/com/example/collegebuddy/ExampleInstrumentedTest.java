@@ -1,4 +1,4 @@
-package com.example.collagebuddy;
+package com.example.collegebuddy;
 
 import android.content.Context;
 

@@ -1,4 +1,4 @@
-package com.example.collagebuddy.Models;
+package com.example.collegebuddy.Models;
 
 public class EbookDataModel {
 

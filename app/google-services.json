@@ -1,66 +1,46 @@
 {
   "project_info": {
-    "project_number": "663786256715",
-    "firebase_url": "https://collage-buddy-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "project_id": "collage-buddy",
-    "storage_bucket": "collage-buddy.appspot.com"
+    "project_number": "339384414220",
+    "firebase_url": "https://college-buddy-f7859-default-rtdb.firebaseio.com",
+    "project_id": "college-buddy-f7859",
+    "storage_bucket": "college-buddy-f7859.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:663786256715:android:6676b139e371b30f4e10ce",
+        "mobilesdk_app_id": "1:339384414220:android:eb15f410f523534dc13e29",
         "android_client_info": {
-          "package_name": "com.example.collagebuddy"
+          "package_name": "com.example.collegebuddy"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "663786256715-fg55o38iihke3d3cr17iiqjb2npj921g.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBEKxRKqZOJgzZLASl_3BllXkp4uogu5dA"
+          "current_key": "AIzaSyA7Qir5mNUBS21Sn7dQfLiPGFWhYWaGbh8"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "663786256715-fg55o38iihke3d3cr17iiqjb2npj921g.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:663786256715:android:bee16b78c79cf1524e10ce",
+        "mobilesdk_app_id": "1:339384414220:android:8fb27e9e6c0e747ec13e29",
         "android_client_info": {
-          "package_name": "com.example.collagebuddyadmin"
+          "package_name": "com.example.collegebuddyadmin"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "663786256715-fg55o38iihke3d3cr17iiqjb2npj921g.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBEKxRKqZOJgzZLASl_3BllXkp4uogu5dA"
+          "current_key": "AIzaSyA7Qir5mNUBS21Sn7dQfLiPGFWhYWaGbh8"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "663786256715-fg55o38iihke3d3cr17iiqjb2npj921g.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

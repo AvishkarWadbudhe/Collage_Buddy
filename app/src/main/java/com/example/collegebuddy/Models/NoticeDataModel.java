@@ -1,6 +1,4 @@
-package com.example.collagebuddy.Models;
-
-import java.io.Serializable;
+package com.example.collegebuddy.Models;
 
 public class NoticeDataModel {
     String title;

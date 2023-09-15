@@ -1,4 +1,4 @@
-package com.example.collagebuddy.Activites;
+package com.example.collegebuddy.Activites;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,17 +8,14 @@ import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.os.Bundle;
 
-import com.example.collagebuddy.Adapters.NoticeAdapter;
-import com.example.collagebuddy.Models.NoticeDataModel;
-import com.example.collagebuddy.R;
-import com.example.collagebuddy.databinding.ActivityNoticeBinding;
+import com.example.collegebuddy.Adapters.NoticeAdapter;
+import com.example.collegebuddy.Models.NoticeDataModel;
+import com.example.collegebuddy.databinding.ActivityNoticeBinding;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageReference;
 
 import java.util.ArrayList;
 import java.util.Calendar;

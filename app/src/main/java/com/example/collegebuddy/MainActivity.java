@@ -1,4 +1,4 @@
-package com.example.collagebuddy;
+package com.example.collegebuddy;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,11 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.collagebuddy.Activites.EbookActivity;
-import com.example.collagebuddy.Activites.ExamInfoAndResultActivity;
-import com.example.collagebuddy.Activites.FacultyActivity;
-import com.example.collagebuddy.Activites.NoticeActivity;
-import com.example.collagebuddy.databinding.ActivityMainBinding;
+import com.example.collegebuddy.Activites.EbookActivity;
+import com.example.collegebuddy.Activites.ExamInfoAndResultActivity;
+import com.example.collegebuddy.Activites.FacultyActivity;
+import com.example.collegebuddy.Activites.NoticeActivity;
+import com.example.collegebuddy.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 ActivityMainBinding binding;

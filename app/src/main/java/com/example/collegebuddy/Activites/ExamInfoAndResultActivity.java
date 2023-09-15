@@ -1,18 +1,11 @@
-package com.example.collagebuddy.Activites;
+package com.example.collegebuddy.Activites;
 
-import android.annotation.SuppressLint;
-import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.view.View;
-import android.webkit.CookieManager;
-import android.webkit.WebChromeClient;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.collagebuddy.databinding.ActivityResultBinding;
+import com.example.collegebuddy.databinding.ActivityResultBinding;
 
 public class ExamInfoAndResultActivity extends AppCompatActivity {
 

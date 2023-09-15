@@ -1,4 +1,4 @@
-package com.example.collagebuddy.Activites;
+package com.example.collegebuddy.Activites;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -7,12 +7,10 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.os.Bundle;
-import android.widget.ProgressBar;
 
-import com.example.collagebuddy.Adapters.FacultyAdapter;
-import com.example.collagebuddy.Models.FacultyDataModel;
-import com.example.collagebuddy.R;
-import com.example.collagebuddy.databinding.ActivityFacultyBinding;
+import com.example.collegebuddy.Adapters.FacultyAdapter;
+import com.example.collegebuddy.Models.FacultyDataModel;
+import com.example.collegebuddy.databinding.ActivityFacultyBinding;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -22,7 +20,6 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class FacultyActivity extends AppCompatActivity {

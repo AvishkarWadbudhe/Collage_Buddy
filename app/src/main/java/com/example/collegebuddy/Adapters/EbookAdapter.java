@@ -1,10 +1,9 @@
-package com.example.collagebuddy.Adapters;
+package com.example.collegebuddy.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -12,20 +11,23 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.collagebuddy.Models.EbookDataModel;
-import com.example.collagebuddy.R;
+import com.example.collegebuddy.Listeners.OnItemClickListener;
+import com.example.collegebuddy.Models.EbookDataModel;
+import com.example.collegebuddy.R;
 
 import java.util.List;
 
-public class EbookAdapter extends RecyclerView.Adapter<EbookAdapter.EbookViewHolder> {
+public class EbookAdapter extends RecyclerView.Adapter<EbookAdapter.EbookViewHolder>{
 
     private Context context;
     private List<EbookDataModel> ebookList;
+    private OnItemClickListener onItemClickListener;
 
 
-    public EbookAdapter(List<EbookDataModel> ebookList,Context context) {
+    public EbookAdapter(List<EbookDataModel> ebookList,Context context,OnItemClickListener onItemClickListener) {
         this.ebookList = ebookList;
         this.context = context;
+        this.onItemClickListener = onItemClickListener;
 
     }
 
@@ -56,7 +58,13 @@ public class EbookAdapter extends RecyclerView.Adapter<EbookAdapter.EbookViewHol
                     .placeholder(R.drawable.placeholder_image)
                     .into(holder.thumbnailImageView);
         }
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
+                    onItemClickListener.onItemClick(ebook);
+            }
+        });
 
 
     }
