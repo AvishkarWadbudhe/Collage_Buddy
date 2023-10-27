@@ -6,11 +6,14 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
+import android.content.ActivityNotFoundException;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.pdf.PdfRenderer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.ParcelFileDescriptor;
+import android.widget.Toast;
 
 import com.example.collegebuddy.Adapters.EbookAdapter;
 import com.example.collegebuddy.Listeners.OnItemClickListener;
@@ -84,29 +87,21 @@ private ActivityEbookBinding binding;
     }
     @Override
     public void onItemClick(EbookDataModel ebook) {
-        // Assuming ebook.getEbookUrl() returns the URL to the PDF file
+        // Assuming ebook.getPdfUrl() returns the URL to the PDF file
         String pdfUrl = ebook.getPdfUrl();
 
         try {
-            // Open the PDF document using PdfRenderer
-            ParcelFileDescriptor fileDescriptor = getContentResolver().openFileDescriptor(Uri.parse(pdfUrl), "r");
-            PdfRenderer pdfRenderer = new PdfRenderer(fileDescriptor);
+            // Create an Intent to open the PDF using the system's default PDF viewer
+            Intent intent = new Intent(Intent.ACTION_VIEW);
+            Uri uri = Uri.parse(pdfUrl);
+            intent.setDataAndType(uri, "application/pdf");
 
-            // Display the first page of the PDF
-            PdfRenderer.Page page = pdfRenderer.openPage(0);
-
-            // Create a bitmap to render the PDF page
-            Bitmap bitmap = Bitmap.createBitmap(page.getWidth(), page.getHeight(), Bitmap.Config.ARGB_8888);
-            page.render(bitmap, null, null, PdfRenderer.Page.RENDER_MODE_FOR_DISPLAY);
-
-            // Show the bitmap in your ImageView or a similar view
-
-            // Close the page and the renderer
-            page.close();
-            pdfRenderer.close();
-        } catch (IOException e) {
+            // Start the activity with this intent
+            startActivity(intent);
+        } catch (ActivityNotFoundException e) {
             e.printStackTrace();
             // Handle the exception
+            // This should only occur if no app on the device can handle PDF files.
         }
     }
 

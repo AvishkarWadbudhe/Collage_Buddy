@@ -1,14 +1,14 @@
 {
   "project_info": {
-    "project_number": "339384414220",
-    "firebase_url": "https://college-buddy-f7859-default-rtdb.firebaseio.com",
-    "project_id": "college-buddy-f7859",
-    "storage_bucket": "college-buddy-f7859.appspot.com"
+    "project_number": "80881683414",
+    "firebase_url": "https://college-buddy-bb04f-default-rtdb.firebaseio.com",
+    "project_id": "college-buddy-bb04f",
+    "storage_bucket": "college-buddy-bb04f.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:339384414220:android:eb15f410f523534dc13e29",
+        "mobilesdk_app_id": "1:80881683414:android:b53cb497c8ed335836b277",
         "android_client_info": {
           "package_name": "com.example.collegebuddy"
         }
@@ -16,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyA7Qir5mNUBS21Sn7dQfLiPGFWhYWaGbh8"
+          "current_key": "AIzaSyCIV9bUyCiQ5fvz77VZO2pU0oJWlyxr9Y0"
         }
       ],
       "services": {
@@ -27,7 +27,7 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:339384414220:android:8fb27e9e6c0e747ec13e29",
+        "mobilesdk_app_id": "1:80881683414:android:21d69ed34eba0f5b36b277",
         "android_client_info": {
           "package_name": "com.example.collegebuddyadmin"
         }
@@ -35,7 +35,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyA7Qir5mNUBS21Sn7dQfLiPGFWhYWaGbh8"
+          "current_key": "AIzaSyCIV9bUyCiQ5fvz77VZO2pU0oJWlyxr9Y0"
         }
       ],
       "services": {
